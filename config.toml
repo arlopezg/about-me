@@ -1,121 +1,195 @@
-############################ Default configuration #########################
-baseURL = "https://examplesite.com/"
-languageCode = "en-us"
-# site title
-title = "Northendlab | Blog Template"
-# theme
-theme = "northendlab-hugo"
-# post pagination
-paginate = "5"
-# post excerpt
-summaryLength = "10"
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
+# Page settings
+baseURL = "http://example.org/"
+languageCode = "es"
+DefaultContentLanguage = "es"
+title = "Desarrollador | Alejandro López"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
 
-[outputs]
-home = ["HTML", "AMP", "RSS", "JSON"]
-
-########################## Plugings ######################################
-
-# css plugins
-[[params.plugins.css]]
-URL = "plugins/bootstrap/bootstrap.min.css"
-[[params.plugins.css]]
-URL = "plugins/themify-icons/themify-icons.css"
-
-# js plugins
-[[params.plugins.js]]
-URL = "plugins/jQuery/jquery.min.js"
-[[params.plugins.js]]
-URL = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-URL = "plugins/search/fuse.min.js"
-[[params.plugins.js]]
-URL = "plugins/search/mark.js"
-[[params.plugins.js]]
-URL = "plugins/search/search.js"
-
-
-########################### Navigation ###################################
-
-# main menu
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 1
-
-[[menu.main]]
-URL = "tools"
-name = "tools"
-weight = 2
-
-# footer menu
-[[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 1
-
-[[menu.footer]]
-URL = "tools"
-name = "tools"
-weight = 2
-
-
-######################### Default Parameters ###########################
 [params]
-# home
-home = "Home"
-# logo
-logo = "images/avatar.png"
-# meta data
-author = "Themefisher"
-description = "This is meta description"
-# google analitycs ID
-googleAnalitycsID = "Your ID"
-# contact form action
-contactFormAction = "#" # contact form works with : https://formspree.io
-# copyright
-copyright = "&copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved"
+author = "CowboySmall"
+description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+primaryColor = "#36859a"
+textPrimaryColor = "#555"
 
-# preloader
-[params.preloader]
+[params.profile]
 enable = true
-preloader = "" # use png, jpg, svg or gif format
+name = "Alejandro López"
+tagline = "Desarrollador de software"
+avatar = "profile.png"
+[params.contact]
+  enable = true
+  location = "Santiago de Chile, Chile"
 
-# search
-[params.search]
-enable = true
+  [[params.contact.list]]
+  icon = "fas fa-envelope-square"
+  url = "mailto:#"
+  text = "alejandrolopez.gd@gmail.com"
+  [[params.contact.list]]
+  icon = "fas fa-globe"
+  url = "https://alejandrolopez.web.app"
+  text = "www.alejandrolopez.web.app"
+[params.skills]
+  enable = true
+
+  [[params.skills.list]]
+  title = "Technical"
+  [[params.skills.list.items]]
+  details = "JavaScript/Angular/React/Vue"
+  [[params.skills.list.items]]
+  details = "Python/Ruby/PHP"
+  [[params.skills.list.items]]
+  details = "Node.js/ASP.NET"
+  [[params.skills.list.items]]
+  details = "PostgreSQL/MySQL"
+  [[params.skills.list.items]]
+  details = "Object-oriented design"
+  [[params.skills.list.items]]
+  details = "Design and implement database structures"
+  [[params.skills.list.items]]
+  details = "Lead and deliver complex software systems"
+
+  [[params.skills.list]]
+  title = "Professional"
+  [[params.skills.list.items]]
+  details = "Effective communication"
+  [[params.skills.list.items]]
+  details = "Team player"
+  [[params.skills.list.items]]
+  details = "Strong problem solver"
+  [[params.skills.list.items]]
+  details = "Good time management"
+
+[params.education]
+  enable = true
+
+  [[params.education.list]]
+  degree = "Ingeniería en Informática"
+  university = "Universidad Privada Dr. Rafael Belloso Chacín"
+  dates = "2013 - 2017"
+  [[params.education.list]]
+  degree = "Diplomado: webmáster"
+  university = "Universidad Privada Dr. Rafael Belloso Chacín"
+  dates = "2016"
+
+[params.awards]
+  enable = true
+
+  [[params.awards.list]]
+  name = "Award Lorem Ipsum"
+  body = "Microsoft lorem ipsum"
+  date = "2019"
+  [[params.awards.list]]
+  name = "Award Donec Sodales"
+  body = "Oracle Aenean"
+  date = "2017"
+
+[params.languages]
+  enable = true
+
+  [[params.languages.list]]
+  name = "Español"
+  level = "Nativo"
+  [[params.languages.list]]
+  name = "English"
+  level = "Profesional"
+  [[params.languages.list]]
+  name = "Francés"
+  level = "Básico"
+
+[params.interests]
+  enable = true
+
+  [[params.interests.list]]
+  name = "Tecnología"
+  [[params.interests.list]]
+  name = "Ciclismo"
+  [[params.interests.list]]
+  name = "Idiomas"
+
+[params.summary]
+  enable = true
+  text = "Egresado de la Universidad Dr. Rafael Belloso Chacín, poseo habilidades que me permiten utilizar el tiempo de manera eficaz, realizar investigaciones y solucionar problemas con agilidad. Me relaciono fácilmente con la tecnología y me desenvuelvo en ella con comodidad, incluso bajo presión."
+
+[params.experience]
+  enable = true
+
+  [[params.experience.list]]
+  title = "Desarrollador de front-end"
+  dates = "Abr 2018 - Present"
+  company = "Nectia Software"
+  details = "Actualmente realizo labores de maquetación de aplicaciones web y móviles, medición del comportamiento de usuarios a través de herramientas de analítica y feedback para su posterior estudio, así como también participo en A/B testing y desarrollo/implementación de prototipos."
+  [[params.experience.list.items]]
+  details = "Lorem ipsum dolor sit amet, consectetuer."
+  [[params.experience.list.items]]
+  details = "Aenean commodo ligula eget dolor."
+  [[params.experience.list.items]]
+  details = "Etiam ultricies nisi vel augue."
+
+  [[params.experience.list]]
+  title = "Desarrollador de front-end"
+  dates = "Abr 2017 - Feb 2018"
+  company = "Sistemas Ventor"
+  details = "Fui responsable del desarrollo de front-end de múltiples aplicaciones cuyo fin es administrar la distribución masiva de productos, bajo ambiente web y móvil (Android)."
+  [[params.experience.list.items]]
+  details = "Optimicé el tamaño promedio de las aplicaciones en un 60% aplicando técnicas de compresión de archivos."
+  [[params.experience.list.items]]
+  details = "Simplifiqué el proceso de distribución de nuevas versiones implementando un sistema de actualizaciones OTA"
+  [[params.experience.list.items]]
+  details = "Automaticé diferentes tareas de desarrollo y despliegue, contribuyendo a un aumento de la productividad"
 
 
-####################### banner #######################################
-[params.banner]
-# bgImage = "images/bg4.png"
-title = "Soy Alejandro López.<br> Creemos software rápido y sencillo."
-image = "images/banner/illustration.svg"
+  [[params.experience.list]]
+  title = "Desarrollador de software"
+  dates = "Ene 2017 - Abr 2017"
+  company = "Megagroup L.A."
+  details = "Fui responsable del desarrollo de aplicaciones de gestión documental y sitios web corporativos y gubernamentales, adaptables a sistemas de escritorio y móviles."
 
+  [[params.experience.list]]
+  title = "Preparador docente/Tutor"
+  dates = "Ene 2016 - Dic 2017"
+  company = "Universidad Dr. Rafael B. Chacín"
+  details = "Soporte técnico en el área de la informática (software de oficina, programación y diseño gráfico) dirigido tanto a profesores como a estudiantes de la universidad."
 
-######################## call to action ###############################
-[params.cta]
-enable = true
-image = "images/hugo-muscot.svg"
-title = "Get the best hugo templates"
-description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
-[params.cta.button]
-enable = true
-label = "Visit Here"
-link = "https://gethugothemes.com/shop/"
+[params.projects]
+  enable = true
 
+  [[params.projects.list]]
+  title = "Project Lorem Ipsum"
+  meta = "Open Source"
+  tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
 
-############################## Social Site ##########################
-[[params.social]]
-icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
-link = "#"
-[[params.social]]
-icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-link = "#"
-[[params.social]]
-icon = "ti-github" # themify icon pack https://themify.me/themify-icons
-link = "#"
-[[params.social]]
-icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-link = "#"
+  [[params.projects.list]]
+  title = "Project Sed Fringilla"
+  meta = "Open Source"
+  tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+  [[params.projects.list]]
+  title = "Project Praesent"
+  meta = "Open Source"
+  tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+[params.information]
+  enable = true
+
+  [[params.information.list]]
+  title = "Papers"
+  [[params.information.list.items]]
+  details = "2018 · Lorem Ipsum"
+  [[params.information.list.items]]
+  details = "2016 · Sed Fringilla"
+
+[params.social]
+  enable = true
+
+  [[params.social.list]]
+  icon = "fab fa-gitlab"
+  url = "//gitlab.com/arlopezg"
+  title = "arlopezg"
+  [[params.social.list]]
+  icon = "fab fa-linkedin"
+  url = "//www.linkedin.com/in/arlopezg/"
+  title = "arlopezg"
+  [[params.social.list]]
+  icon = "fab fa-instagram"
+  url = "//www.instagram.com/arlopezg/"
+  title = "@arlopezg"
