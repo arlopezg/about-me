@@ -8,19 +8,19 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
 author = "CowboySmall"
-description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+description = "Front-end Developer, based in Chile"
 primaryColor = "#36859a"
 textPrimaryColor = "#555"
 
 [params.profile]
 enable = true
 name = "Alejandro López"
-tagline = "Desarrollador de software"
+tagline = ""
 avatar = "profile.png"
+
 [params.contact]
   enable = true
   location = "Santiago de Chile, Chile"
-
   [[params.contact.list]]
   icon = "fas fa-envelope-square"
   url = "mailto:#"
@@ -29,23 +29,23 @@ avatar = "profile.png"
   icon = "fas fa-globe"
   url = "https://alejandrolopez.web.app"
   text = "www.alejandrolopez.web.app"
+
 [params.skills]
   enable = true
-
   [[params.skills.list]]
   title = "Technical"
   [[params.skills.list.items]]
-  details = "JavaScript/Angular/React/Vue"
+  details = "HTML/CSS"
   [[params.skills.list.items]]
-  details = "Python/Ruby/PHP"
+  details = "Javascript/EcmaScript"
   [[params.skills.list.items]]
-  details = "Node.js/ASP.NET"
+  details = "Angular & React"
   [[params.skills.list.items]]
-  details = "PostgreSQL/MySQL"
+  details = "Git"
   [[params.skills.list.items]]
-  details = "Object-oriented design"
+  details = "Serverless"
   [[params.skills.list.items]]
-  details = "Design and implement database structures"
+  details = "CI/CD"
   [[params.skills.list.items]]
   details = "Lead and deliver complex software systems"
 
@@ -59,22 +59,22 @@ avatar = "profile.png"
   details = "Strong problem solver"
   [[params.skills.list.items]]
   details = "Good time management"
+  [[params.skills.list.items]]
+  details = "Agile developer"
 
 [params.education]
   enable = true
-
   [[params.education.list]]
-  degree = "Ingeniería en Informática"
-  university = "Universidad Privada Dr. Rafael Belloso Chacín"
+  degree = "B.Sc. Computer Science"
+  university = "Dr. Rafael Belloso Chacín University"
   dates = "2013 - 2017"
   [[params.education.list]]
-  degree = "Diplomado: webmáster"
-  university = "Universidad Privada Dr. Rafael Belloso Chacín"
+  degree = "Webmaster Certification"
+  university = "Dr. Rafael Belloso Chacín University"
   dates = "2016"
 
 [params.awards]
-  enable = true
-
+  enable = false
   [[params.awards.list]]
   name = "Award Lorem Ipsum"
   body = "Microsoft lorem ipsum"
@@ -86,91 +86,101 @@ avatar = "profile.png"
 
 [params.languages]
   enable = true
-
   [[params.languages.list]]
   name = "Español"
   level = "Nativo"
   [[params.languages.list]]
   name = "English"
-  level = "Profesional"
+  level = "Professional"
   [[params.languages.list]]
   name = "Francés"
-  level = "Básico"
+  level = "Basique"
 
 [params.interests]
   enable = true
-
   [[params.interests.list]]
-  name = "Tecnología"
+  name = "Technology enthusiast"
   [[params.interests.list]]
-  name = "Ciclismo"
+  name = "Amateur road cyclist"
   [[params.interests.list]]
-  name = "Idiomas"
+  name = "Love to learn languages"
 
 [params.summary]
   enable = true
-  text = "Egresado de la Universidad Dr. Rafael Belloso Chacín, poseo habilidades que me permiten utilizar el tiempo de manera eficaz, realizar investigaciones y solucionar problemas con agilidad. Me relaciono fácilmente con la tecnología y me desenvuelvo en ella con comodidad, incluso bajo presión."
+  text = "A graduate of Dr. Rafael B. Chacín University - I have skills that allow me to use time effectively, conduct research and solve problems with agility. I relate easily to technology and I work with it comfortably, even when under pressure."
 
 [params.experience]
   enable = true
-
   [[params.experience.list]]
-  title = "Desarrollador de front-end"
-  dates = "Abr 2018 - Present"
+  title = "Front-end Developer"
+  dates = "Apr 2018 - Present"
   company = "Nectia Software"
-  details = "Actualmente realizo labores de maquetación de aplicaciones web y móviles, medición del comportamiento de usuarios a través de herramientas de analítica y feedback para su posterior estudio, así como también participo en A/B testing y desarrollo/implementación de prototipos."
+  details = "Currently working on web and mobile applications."
   [[params.experience.list.items]]
-  details = "Lorem ipsum dolor sit amet, consectetuer."
+  details = "Improved page load times by implementing \"NextJS\", React's SSR framework"
   [[params.experience.list.items]]
-  details = "Aenean commodo ligula eget dolor."
-  [[params.experience.list.items]]
-  details = "Etiam ultricies nisi vel augue."
+  details = "Achieved an uplift in conversion rates by measuring user behavior through analytical tools (e.g.: Google Analytics & Hotjar)."
 
   [[params.experience.list]]
-  title = "Desarrollador de front-end"
-  dates = "Abr 2017 - Feb 2018"
-  company = "Sistemas Ventor"
-  details = "Fui responsable del desarrollo de front-end de múltiples aplicaciones cuyo fin es administrar la distribución masiva de productos, bajo ambiente web y móvil (Android)."
-  [[params.experience.list.items]]
-  details = "Optimicé el tamaño promedio de las aplicaciones en un 60% aplicando técnicas de compresión de archivos."
-  [[params.experience.list.items]]
-  details = "Simplifiqué el proceso de distribución de nuevas versiones implementando un sistema de actualizaciones OTA"
-  [[params.experience.list.items]]
-  details = "Automaticé diferentes tareas de desarrollo y despliegue, contribuyendo a un aumento de la productividad"
-
-
-  [[params.experience.list]]
-  title = "Desarrollador de software"
-  dates = "Ene 2017 - Abr 2017"
-  company = "Megagroup L.A."
-  details = "Fui responsable del desarrollo de aplicaciones de gestión documental y sitios web corporativos y gubernamentales, adaptables a sistemas de escritorio y móviles."
+  title = "Front-end Developer"
+  dates = "Apr 2017 - Feb 2018"
+  company = "Ventor Systems"
+  details = "I was responsible for the front-end development of multiple applications to manage the mass distribution of products, under web and mobile environments (Android)."
+    [[params.experience.list.items]]
+    details = "Optimized the average application size by 60% by applying file compression techniques"
+    [[params.experience.list.items]]
+    details = "Simplified the process of distributing new versions by implementing an OTA update system"
+    [[params.experience.list.items]]
+    details = "Automated different development, integration and deployment tasks, contributing to an uptick in productivity"
 
   [[params.experience.list]]
-  title = "Preparador docente/Tutor"
-  dates = "Ene 2016 - Dic 2017"
-  company = "Universidad Dr. Rafael B. Chacín"
-  details = "Soporte técnico en el área de la informática (software de oficina, programación y diseño gráfico) dirigido tanto a profesores como a estudiantes de la universidad."
+  title = "Frontend Developer"
+  dates = "Jan 2017 - Apr 2017"
+  company = "Megagroup LatAm"
+  details = "I was responsible for the development of document management applications, as well as corporate and internal government websites, adaptable to desktop and mobile systems."
+
+  [[params.experience.list]]
+  title = "Tutor"
+  dates = "Jan 2016 - Dic 2017"
+  company = "Dr. Rafael B. Chacín University"
+  details = "Technical support in the area of computer science (office software, programming, and graphic design) aimed at both teachers and students of the university."
 
 [params.projects]
   enable = true
-
   [[params.projects.list]]
-  title = "Project Lorem Ipsum"
-  meta = "Open Source"
-  tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
+  title = "Autoplaza"
+  license = "Proprietary"
+  tagline = "Autoplaza is a platform aimed to help its users find the best-suited vehicle for their needs."
+  projectUrl = "https://autoplaza.cl"
+  stackUrl = "https://stackshare.io/nectia-software/autoplaza-usados"
   [[params.projects.list]]
-  title = "Project Sed Fringilla"
-  meta = "Open Source"
-  tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+  title = "MacroMade"
+  license = "Proprietary"
+  tagline = "I worked along the team of MacroMade (formerly MICA Interactive) to overhaul many of their clients' websites, mainly built on Wordpress and Shopify."
+  projectUrl = "https://www.linkedin.com/company/micainteractive/"
+  [[params.projects.subProjects]]
+    enable = true
+    [[params.projects.list.subProject]]
+    subProjectTitle = "Advanced Fiberglass Concepts"
+    subProjectUrl = "https://www.advfiberglass.com/"
+    [[params.projects.list.subProject]]
+    subProjectTitle = "6 Shore Road"
+    subProjectUrl = "https://www.6shoreroad.com/"
+    [[params.projects.list.subProject]]
+    subProjectTitle = "Wallark"
+    subProjectUrl = "https://www.wallark.com/"
+    [[params.projects.list.subProject]]
+    subProjectTitle = "HoneyCat Jewelry"
+    subProjectUrl = "https://www.honeycat-jewelry.com/"
+    [[params.projects.list.subProject]]
+    subProjectTitle = "PoolStore Canada"
+    subProjectUrl = "https://www.poolstorecanada.ca/"
+    [[params.projects.list.subProject]]
+    subProjectTitle = "Gramco"
+    subProjectUrl = "https://www.gramco.com/"
 
-  [[params.projects.list]]
-  title = "Project Praesent"
-  meta = "Open Source"
-  tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
 [params.information]
-  enable = true
-
+  enable = false
   [[params.information.list]]
   title = "Papers"
   [[params.information.list.items]]
@@ -180,16 +190,19 @@ avatar = "profile.png"
 
 [params.social]
   enable = true
-
   [[params.social.list]]
   icon = "fab fa-gitlab"
   url = "//gitlab.com/arlopezg"
-  title = "arlopezg"
+  title = "@arlopezg"
   [[params.social.list]]
   icon = "fab fa-linkedin"
   url = "//www.linkedin.com/in/arlopezg/"
-  title = "arlopezg"
+  title = "@arlopezg"
   [[params.social.list]]
   icon = "fab fa-instagram"
   url = "//www.instagram.com/arlopezg/"
+  title = "@arlopezg"
+  [[params.social.list]]
+  icon = "fab fa-strava"
+  url = "//www.strava.com/athletes/33063219"
   title = "@arlopezg"
