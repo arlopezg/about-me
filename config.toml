@@ -23,7 +23,7 @@ avatar = "profile.png"
   location = "Santiago de Chile, Chile"
   [[params.contact.list]]
   icon = "fas fa-envelope-square"
-  url = "mailto:#"
+  url = "mailto:alejandrolopez.gd@gmail.com"
   text = "alejandrolopez.gd@gmail.com"
   [[params.contact.list]]
   icon = "fas fa-globe"
