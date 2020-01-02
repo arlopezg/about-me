@@ -1,7 +1,7 @@
 # Page settings
 baseURL = "https://reverent-snyder-0ea6d4.netlify.com/"
-languageCode = "es"
-DefaultContentLanguage = "es"
+languageCode = "en"
+DefaultContentLanguage = "en"
 title = "Desarrollador | Alejandro López"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
