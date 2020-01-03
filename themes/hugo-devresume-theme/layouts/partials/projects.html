@@ -24,7 +24,7 @@
       <ul>
         {{ range .item }}
         <li>
-          <a href={{ .url }}>{{ .details }}</a>
+          <a href={{ .url }}>{{ .name }}</a>: {{ .summary }}
         </li>
         {{ end }}
       </ul>
