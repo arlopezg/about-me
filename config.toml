@@ -16,17 +16,19 @@ textPrimaryColor = "#555"
 enable = true
 name = "Alejandro López"
 tagline = ""
-avatar = "profile.png"
+avatar = "images/profile.png"
 
 [params.contact]
   enable = true
   location = "Santiago de Chile, Chile"
   [[params.contact.list]]
-  icon = "fas fa-envelope-square"
+  name = "fas fa-envelope-square"
+  summary = ""
   url = "mailto:alejandrolopez.gd@gmail.com"
   text = "alejandrolopez.gd@gmail.com"
   [[params.contact.list]]
-  icon = "fas fa-globe"
+  name = "fas fa-globe"
+  summary = ""
   url = "https://alejandrolopez.web.app"
   text = "www.alejandrolopez.web.app"
 
@@ -117,6 +119,10 @@ avatar = "profile.png"
   company = "Nectia Software"
   details = "Currently working on web and mobile applications."
   [[params.experience.list.items]]
+  details = "Improved productivity by automating testing/QA tasks using GitLab CI/CD"
+  [[params.experience.list.items]]
+  details = "Measured technical debts by implementing SonarQube's CodeQuality & Security reports"
+  [[params.experience.list.items]]
   details = "Improved page load & SEO times by implementing NextJS and leveraging its Server-Side Rendering capabilities"
   [[params.experience.list.items]]
   details = "Achieved an uplift in conversion rates by measuring user behavior through analytical tools (e.g.: Google Analytics & Hotjar)"
@@ -161,23 +167,29 @@ avatar = "profile.png"
   tagline = "I worked alongside the team of MacroMade as an independent contractor to overhaul many of their clients' websites, mainly built on Wordpress and Shopify."
   projectUrl = "https://www.linkedin.com/company/micainteractive/"
   [[params.projects.list.item]]
-  details = "Advanced Fiberglass Concepts"
+  name = "Advanced Fiberglass Concepts"
+  summary = "aftermarket, offroad fiberglass automotive parts producers"
   url = "https://www.advfiberglass.com/"
   [[params.projects.list.item]]
-  details = "6 Shore Road"
+  name = "6 Shore Road"
+  summary = "versatile and luxury swimwear"
   url = "https://www.6shoreroad.com/"
   [[params.projects.list.item]]
-  details = "Wallark"
+  name = "Wallark"
+  summary = "Finnish elegant décor and craftmanship for ceilings and interior design"
   url = "https://www.wallark.com/"
   [[params.projects.list.item]]
-  details = "HoneyCat Jewelry"
+  name = "HoneyCat Jewelry"
+  summary = "high-quality, meaningful and sensibly-priced jewelry"
   url = "https://www.honeycat-jewelry.com/"
   [[params.projects.list.item]]
-  details = "PoolStore Canada"
-  url = "https://www.poolstorecanada.ca/"
-  [[params.projects.list.item]]
-  details = "Gramco"
+  name = "Gramco"
+  summary = "funeral and cremmatoria supplies"
   url = "https://www.gramco.com/"
+  [[params.projects.list.item]]
+  name = "PoolStore Canada"
+  summary = "Canadian pool and hot tube supplies"
+  url = "https://www.poolstorecanada.ca/"
 
 [params.information]
   enable = false
@@ -191,18 +203,22 @@ avatar = "profile.png"
 [params.social]
   enable = true
   [[params.social.list]]
-  icon = "fab fa-gitlab"
+  name = "fab fa-gitlab"
+  summary = ""
   url = "//gitlab.com/arlopezg"
   title = "@arlopezg"
   [[params.social.list]]
-  icon = "fab fa-linkedin"
+  name = "fab fa-linkedin"
+  summary = ""
   url = "//www.linkedin.com/in/arlopezg/"
   title = "@arlopezg"
   [[params.social.list]]
-  icon = "fab fa-instagram"
+  name = "fab fa-instagram"
+  summary = ""
   url = "//www.instagram.com/arlopezg/"
   title = "@arlopezg"
   [[params.social.list]]
-  icon = "fab fa-strava"
+  name = "fab fa-strava"
+  summary = ""
   url = "//www.strava.com/athletes/33063219"
   title = "@arlopezg"
