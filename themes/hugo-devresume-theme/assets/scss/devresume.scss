@@ -110,11 +110,12 @@ a.theme-link {
 }
 
 .resume-name {
-	font-size: 2.75rem;
 	font-weight: 900;
 	letter-spacing: 0.4rem;
 	color: $theme-color-primary;
-
+ 	@include media-breakpoint-up(md) {
+		font-size: 2.75rem;
+	 }
 }
 
 .resume-tagline {
