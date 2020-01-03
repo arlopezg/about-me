@@ -1,5 +1,35 @@
 {
+  "name": "my-resume-hugo",
+  "version": "1.0.0",
+  "description": "Alejandro Lopez | Frontend Developer",
+  "main": "dist/index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "hugo && npx firebase deploy --only hosting:alejandrolopez"
+  },
   "dependencies": {
     "firebase-tools": "^7.11.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/arlopezg/my-hugo-theme.git"
+  },
+  "keywords": [
+    "hugo",
+    "static",
+    "site",
+    "html",
+    "css",
+    "js",
+    "firebase",
+    "netlify",
+    "resume"
+  ],
+  "author": "Alejandro López",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://gitlab.com/arlopezg/my-hugo-theme/issues"
+  },
+  "homepage": "https://gitlab.com/arlopezg/my-hugo-theme#readme"
 }
