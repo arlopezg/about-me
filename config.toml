@@ -1,10 +1,10 @@
 # Page settings
-baseURL = "https://reverent-snyder-0ea6d4.netlify.com/"
+baseURL = "https://alejandrolopez.web.app/"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Developer | Alejandro López"
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-113183171-1"
 
 [params]
 author = "CowboySmall"
@@ -93,7 +93,7 @@ avatar = "profile.png"
   name = "English"
   level = "Professional"
   [[params.languages.list]]
-  name = "Francés"
+  name = "Français"
   level = "Basique"
 
 [params.interests]
@@ -117,9 +117,9 @@ avatar = "profile.png"
   company = "Nectia Software"
   details = "Currently working on web and mobile applications."
   [[params.experience.list.items]]
-  details = "Improved page load times by implementing \"NextJS\", React's SSR framework"
+  details = "Improved page load & SEO times by implementing NextJS and leveraging its Server-Side Rendering capabilities"
   [[params.experience.list.items]]
-  details = "Achieved an uplift in conversion rates by measuring user behavior through analytical tools (e.g.: Google Analytics & Hotjar)."
+  details = "Achieved an uplift in conversion rates by measuring user behavior through analytical tools (e.g.: Google Analytics & Hotjar)"
 
   [[params.experience.list]]
   title = "Front-end Developer"
@@ -134,10 +134,12 @@ avatar = "profile.png"
     details = "Automated different development, integration and deployment tasks, contributing to an uptick in productivity"
 
   [[params.experience.list]]
-  title = "Frontend Developer"
+  title = "Front-end Developer"
   dates = "Jan 2017 - Apr 2017"
   company = "Megagroup LatAm"
   details = "I was responsible for the development of document management applications, as well as corporate and internal government websites, adaptable to desktop and mobile systems."
+    [[params.experience.list.items]]
+    details = "Improved the codebase readability by using the style guides provided by the Angular development team"
 
   [[params.experience.list]]
   title = "Tutor"
@@ -154,30 +156,28 @@ avatar = "profile.png"
   projectUrl = "https://autoplaza.cl"
   stackUrl = "https://stackshare.io/nectia-software/autoplaza-usados"
   [[params.projects.list]]
-  title = "MacroMade"
+  title = "MacroMade (formerly MICA Interactive)"
   license = "Proprietary"
-  tagline = "I worked along the team of MacroMade (formerly MICA Interactive) to overhaul many of their clients' websites, mainly built on Wordpress and Shopify."
+  tagline = "I worked alongside the team of MacroMade as an independent contractor to overhaul many of their clients' websites, mainly built on Wordpress and Shopify."
   projectUrl = "https://www.linkedin.com/company/micainteractive/"
-  [[params.projects.subProjects]]
-    enable = true
-    [[params.projects.list.subProject]]
-    subProjectTitle = "Advanced Fiberglass Concepts"
-    subProjectUrl = "https://www.advfiberglass.com/"
-    [[params.projects.list.subProject]]
-    subProjectTitle = "6 Shore Road"
-    subProjectUrl = "https://www.6shoreroad.com/"
-    [[params.projects.list.subProject]]
-    subProjectTitle = "Wallark"
-    subProjectUrl = "https://www.wallark.com/"
-    [[params.projects.list.subProject]]
-    subProjectTitle = "HoneyCat Jewelry"
-    subProjectUrl = "https://www.honeycat-jewelry.com/"
-    [[params.projects.list.subProject]]
-    subProjectTitle = "PoolStore Canada"
-    subProjectUrl = "https://www.poolstorecanada.ca/"
-    [[params.projects.list.subProject]]
-    subProjectTitle = "Gramco"
-    subProjectUrl = "https://www.gramco.com/"
+  [[params.projects.list.item]]
+  details = "Advanced Fiberglass Concepts"
+  url = "https://www.advfiberglass.com/"
+  [[params.projects.list.item]]
+  details = "6 Shore Road"
+  url = "https://www.6shoreroad.com/"
+  [[params.projects.list.item]]
+  details = "Wallark"
+  url = "https://www.wallark.com/"
+  [[params.projects.list.item]]
+  details = "HoneyCat Jewelry"
+  url = "https://www.honeycat-jewelry.com/"
+  [[params.projects.list.item]]
+  details = "PoolStore Canada"
+  url = "https://www.poolstorecanada.ca/"
+  [[params.projects.list.item]]
+  details = "Gramco"
+  url = "https://www.gramco.com/"
 
 [params.information]
   enable = false
