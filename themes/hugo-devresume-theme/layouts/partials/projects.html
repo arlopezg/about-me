@@ -21,10 +21,13 @@
            rel="noopener noreferrer">here</a>
       </p>
       {{ end }}
-      <p>Subprojects:</p>
-      {{ range .Site.Params.projects.subProjects }}
-      <p> {{ .subProjectTitle }}</p>
-      {{ end }}
+      <ul>
+        {{ range .item }}
+        <li>
+          <a href={{ .url }}>{{ .details }}</a>
+        </li>
+        {{ end }}
+      </ul>
     </div>
   </div>
   <!--//item-->

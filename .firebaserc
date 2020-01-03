@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "mi-pagina-1872b"
+  },
+  "targets": {
+    "mi-pagina-1872b": {
+      "hosting": {
+        "alejandrolopez": [
+          "alejandrolopez"
+        ]
+      }
+    }
+  }
+}
