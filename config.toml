@@ -203,22 +203,18 @@ avatar = "images/profile.png"
 [params.social]
   enable = true
   [[params.social.list]]
-  name = "fab fa-gitlab"
-  summary = ""
+  icon = "fab fa-gitlab"
   url = "//gitlab.com/arlopezg"
   title = "@arlopezg"
   [[params.social.list]]
-  name = "fab fa-linkedin"
-  summary = ""
+  icon = "fab fa-linkedin"
   url = "//www.linkedin.com/in/arlopezg/"
   title = "@arlopezg"
   [[params.social.list]]
-  name = "fab fa-instagram"
-  summary = ""
+  icon = "fab fa-instagram"
   url = "//www.instagram.com/arlopezg/"
   title = "@arlopezg"
   [[params.social.list]]
-  name = "fab fa-strava"
-  summary = ""
+  icon = "fab fa-strava"
   url = "//www.strava.com/athletes/33063219"
   title = "@arlopezg"
