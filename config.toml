@@ -8,7 +8,7 @@ googleAnalytics = "UA-113183171-1"
 
 [params]
 author = "CowboySmall"
-description = "Front-end Developer, based in Chile"
+description = "Hi, I'm Alejandro López. I'm a software engineer specialized on front-end development."
 primaryColor = "#36859a"
 textPrimaryColor = "#555"
 
@@ -62,17 +62,17 @@ avatar = "images/profile.png"
   [[params.skills.list.items]]
   details = "Good time management"
   [[params.skills.list.items]]
-  details = "Agile developer"
+  details = "Experienced with Agile"
 
 [params.education]
   enable = true
   [[params.education.list]]
   degree = "B.Sc. Computer Science"
-  university = "Dr. Rafael Belloso Chacín University"
+  university = "Dr. Rafael B. Chacín University"
   dates = "2013 - 2017"
   [[params.education.list]]
   degree = "Webmaster Certification"
-  university = "Dr. Rafael Belloso Chacín University"
+  university = "Dr. Rafael B. Chacín University"
   dates = "2016"
 
 [params.awards]
@@ -109,7 +109,13 @@ avatar = "images/profile.png"
 
 [params.summary]
   enable = true
-  text = "A graduate of Dr. Rafael B. Chacín University - I have skills that allow me to use time effectively, conduct research and solve problems with agility. I relate easily to technology and I work with it comfortably, even when under pressure."
+  text = "A graduate of Dr. Rafael B. Chacín University - I have skills that allow me to use time effectively, conduct research and solve problems with agility."
+  [params.summary.bulletpoints]
+    enable = true
+    [[params.summary.bulletpoints.item]]
+    content = "I've got a deep understanding of modern front-end concepts, techniques and tooling aimed to deliver a great experience"
+    [[params.summary.bulletpoints.item]]
+    content = "Soft skilled — I thrive in collaborating with others, sharing knowledge and reaching goals"
 
 [params.experience]
   enable = true
@@ -121,23 +127,23 @@ avatar = "images/profile.png"
   [[params.experience.list.items]]
   details = "Improved productivity by automating testing/QA tasks using GitLab CI/CD"
   [[params.experience.list.items]]
-  details = "Measured technical debts by implementing SonarQube's CodeQuality & Security reports"
+  details = "Detected technical debt by implementing SonarQube's CodeQuality & Security reports"
   [[params.experience.list.items]]
-  details = "Improved page load & SEO times by implementing NextJS and leveraging its Server-Side Rendering capabilities"
+  details = "Accelerated page load times and improved SEO by implementing Server-Side Rendering"
   [[params.experience.list.items]]
-  details = "Achieved an uplift in conversion rates by measuring user behavior through analytical tools (e.g.: Google Analytics & Hotjar)"
+  details = "Rocketed conversion rates by measuring user behavior through analytical tools (e.g.: Google Analytics & Hotjar)"
 
   [[params.experience.list]]
   title = "Front-end Developer"
   dates = "Apr 2017 - Feb 2018"
   company = "Ventor Systems"
-  details = "I was responsible for the front-end development of multiple applications to manage the mass distribution of products, under web and mobile environments (Android)."
+  details = "I was responsible for the front-end development of multiple applications to manage mass product distribution, under web and mobile environments (Android)."
     [[params.experience.list.items]]
-    details = "Optimized the average application size by 60% by applying file compression techniques"
+    details = "Brought down the average application size by up to 60% through file compression techniques"
     [[params.experience.list.items]]
-    details = "Simplified the process of distributing new versions by implementing an OTA update system"
+    details = "Automated many tasks development, integration and deployment tasks, contributing to an uptick in productivity"
     [[params.experience.list.items]]
-    details = "Automated different development, integration and deployment tasks, contributing to an uptick in productivity"
+    details = "Delivered a stable user experience by providing an Over-The-Air update system, which allowed mobile customers to easily upgrade to the latest releases"
 
   [[params.experience.list]]
   title = "Front-end Developer"
@@ -145,7 +151,9 @@ avatar = "images/profile.png"
   company = "Megagroup LatAm"
   details = "I was responsible for the development of document management applications, as well as corporate and internal government websites, adaptable to desktop and mobile systems."
     [[params.experience.list.items]]
-    details = "Improved the codebase readability by using the style guides provided by the Angular development team"
+    details = "Refined multiple Angular projects' codebases by enforcing the style guides provided by the development team"
+    [[params.experience.list.items]]
+    details = "Standardised the Git approach by introducing GitFlow - a Dutch branching model designed to streamline the workflow"
 
   [[params.experience.list]]
   title = "Tutor"

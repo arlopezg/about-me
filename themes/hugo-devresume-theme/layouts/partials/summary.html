@@ -11,6 +11,14 @@
 
     <div class="media-body text-left">
       <p class="mb-0">{{ .Site.Params.summary.text }}</p>
+      {{ if .Site.Params.summary.bulletpoints.enable }}
+      <br />
+      <ul>
+        {{ range .Site.Params.summary.bulletpoints.item }}
+        <li>{{ .content }}</li>
+        {{ end }}
+      </ul>
+      {{ end }}
     </div>
     <!--//media-body-->
 
