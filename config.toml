@@ -1,5 +1,5 @@
 # Page settings
-baseURL = "https://reverent-snyder-0ea6d4.netlify.com/"
+baseURL = "/"
 languageCode = "es"
 DefaultContentLanguage = "es"
 title = "Desarrollador | Alejandro López"
