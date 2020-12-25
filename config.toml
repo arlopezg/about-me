@@ -59,15 +59,15 @@ avatar = "profile.png"
 
   [[params.education.list]]
   degree = "Ingeniería en Informática"
-  university = "Universidad Privada Dr. Rafael Belloso Chacín"
+  university = "Universidad Rafael Belloso"
   dates = "2013 - 2017"
   [[params.education.list]]
   degree = "Diplomado: webmáster"
-  university = "Universidad Privada Dr. Rafael Belloso Chacín"
+  university = "Universidad Rafael Belloso"
   dates = "2016"
 
 [params.awards]
-  enable = true
+  enable = false
 
   [[params.awards.list]]
   name = "Award Lorem Ipsum"
@@ -103,7 +103,7 @@ avatar = "profile.png"
 
 [params.summary]
   enable = true
-  text = "Egresado de la Universidad Dr. Rafael Belloso Chacín, poseo habilidades que me permiten utilizar el tiempo de manera eficaz, realizar investigaciones y solucionar problemas con agilidad. Me relaciono fácilmente con la tecnología y me desenvuelvo en ella con comodidad, incluso bajo presión."
+  text = "Egresado de la Universidad Rafael Belloso Chacín, poseo habilidades que me permiten utilizar el tiempo de manera eficaz, realizar investigaciones y solucionar problemas con agilidad. Me relaciono fácilmente con la tecnología y me desenvuelvo en ella con comodidad, incluso bajo presión."
 
 [params.experience]
   enable = true
@@ -112,6 +112,7 @@ avatar = "profile.png"
   title = "Ingeniero de Entrega de Datos"
   dates = "Ago 2020 - Presente"
   company = "Admetricks"
+  companyUrl = "https://admetricks.com"
   details = "Estoy a cargo de aquellos productos de la compañía que entreguen datos a sus clientes, así que desarrollo interfaces tanto de front-end como de back-end para desplegar información fácil de entender, con las siguientes herramientas/técnicas:"
 
   [[params.experience.list.items]]
@@ -130,12 +131,14 @@ avatar = "profile.png"
   title = "Ingeniero de front-end"
   dates = "Abr 2018 - Feb 2020"
   company = "Nectia Software"
+  companyUrl = "http://www.nectia.com/software"
   details = "Fui responsable de labores de maquetación de aplicaciones web y móviles, medición del comportamiento de usuarios a través de herramientas de analítica y feedback para su posterior estudio. También participé en A/B testing y desarrollo/implementación de prototipos."
 
   [[params.experience.list]]
   title = "Ingeniero de front-end"
   dates = "Abr 2017 - Feb 2018"
   company = "Sistemas Ventor"
+  companyUrl = "https://www.linkedin.com/company/sistemas-ventor"
   details = "Fui responsable del desarrollo de front-end de múltiples aplicaciones cuyo fin es administrar la distribución masiva de productos, bajo ambiente web y móvil (Android)."
   [[params.experience.list.items]]
   details = "Optimicé el tamaño promedio de las aplicaciones en un 60% aplicando técnicas de compresión de archivos."
@@ -148,13 +151,15 @@ avatar = "profile.png"
   [[params.experience.list]]
   title = "Desarrollador de software"
   dates = "Ene 2017 - Abr 2017"
-  company = "Megagroup L.A."
+  company = "Megagroup LA"
+  companyUrl = "https://megagroupla.com/"
   details = "Fui responsable del desarrollo de aplicaciones de gestión documental y sitios web corporativos y gubernamentales, adaptables a sistemas de escritorio y móviles."
 
   [[params.experience.list]]
   title = "Preparador docente/Tutor"
   dates = "Ene 2016 - Dic 2017"
-  company = "Universidad Dr. Rafael B. Chacín"
+  company = "Universidad Rafael Belloso"
+  companyUrl = "https://www.urbe.edu/"
   details = "Soporte técnico en el área de la informática (software de oficina, programación y diseño gráfico) dirigido tanto a profesores como a estudiantes de la universidad."
 
 [params.projects]
