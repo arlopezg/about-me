@@ -2,9 +2,9 @@
 baseURL = "/"
 languageCode = "es"
 DefaultContentLanguage = "es"
-title = "Desarrollador | Alejandro López"
+title = "Developer | Alejandro López"
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-113183171-1"
 
 [params]
 author = "CowboySmall"
@@ -15,7 +15,7 @@ textPrimaryColor = "#555"
 [params.profile]
 enable = true
 name = "Alejandro López"
-tagline = "Desarrollador de software"
+tagline = "Software Developer"
 avatar = "profile.png"
 [params.contact]
   enable = true
