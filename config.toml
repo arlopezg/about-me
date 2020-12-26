@@ -1,7 +1,7 @@
 # Page settings
 baseURL = "/"
 languageCode = "es"
-DefaultContentLanguage = "es"
+DefaultContentLanguage = "en"
 title = "Developer | Alejandro López"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-113183171-1"
@@ -17,201 +17,320 @@ enable = true
 name = "Alejandro López"
 tagline = "Software Developer"
 avatar = "profile.png"
-[params.contact]
-  enable = true
-  location = "Santiago de Chile, Chile"
 
-  [[params.contact.list]]
-  icon = "fas fa-envelope-square"
-  url = "mailto:#"
-  text = "alejandrolopez.gd@gmail.com"
-  [[params.contact.list]]
-  icon = "fas fa-globe"
-  url = "https://alejandro-lopez.dev"
-  text = "alejandro-lopez.dev"
-[params.skills]
-  enable = true
+  [params.contact]
+    enable = true
+    location = "Santiago de Chile, Chile"
+    [[params.contact.list]]
+    icon = "fas fa-envelope-square"
+    url = "mailto:#"
+    text = "alejandrolopez.gd@gmail.com"
+    [[params.contact.list]]
+    icon = "fas fa-globe"
+    url = "https://alejandro-lopez.dev"
+    text = "alejandro-lopez.dev"
 
-  [[params.skills.list]]
-  title = "Technical"
-  [[params.skills.list.items]]
-  details = "Lead and deliver complex software systems"
-  [[params.skills.list.items]]
-  details = "Responsive and high-performance apps"
-  [[params.skills.list.items]]
-  details = "JavaScript/Vue/React/Angular"
-  [[params.skills.list.items]]
-  details = "Django/NodeJS"
+  [params.languages]
+    enable = true
+    [[params.languages.list]]
+    name = "Español"
+    level = "Nativo"
+    [[params.languages.list]]
+    name = "English"
+    level = "Fluent"
+    [[params.languages.list]]
+    name = "Francés"
+    level = "Basique"
+  [params.social]
+    enable = true
+    [[params.social.list]]
+    icon = "fab fa-gitlab"
+    url = "//gitlab.com/arlopezg"
+    title = "arlopezg"
+    [[params.social.list]]
+    icon = "fab fa-linkedin"
+    url = "//www.linkedin.com/in/arlopezg/"
+    title = "arlopezg"
+    [[params.social.list]]
+    icon = "fab fa-instagram"
+    url = "//www.instagram.com/arlopezg/"
+    title = "@arlopezg"
 
-  [[params.skills.list]]
-  title = "Professional"
-  [[params.skills.list.items]]
-  details = "Effective communication"
-  [[params.skills.list.items]]
-  details = "Team player"
-  [[params.skills.list.items]]
-  details = "Strong problem solver"
-  [[params.skills.list.items]]
-  details = "Good time management"
+[languages]
+  [languages.en]
+    weight = 2
 
-[params.education]
-  enable = true
+    [languages.en.params.skills]
+      enable = true
 
-  [[params.education.list]]
-  degree = "Ingeniería en Informática"
-  university = "Universidad Rafael Belloso"
-  dates = "2013 - 2017"
-  [[params.education.list]]
-  degree = "Diplomado: webmáster"
-  university = "Universidad Rafael Belloso"
-  dates = "2016"
+      [[languages.en.params.skills.list]]
+      title = "Technical"
+      [[languages.en.params.skills.list.items]]
+      details = "Lead and deliver complex software systems"
+      [[languages.en.params.skills.list.items]]
+      details = "Responsive and high-performance apps"
+      [[languages.en.params.skills.list.items]]
+      details = "JavaScript/Vue/React/Angular"
+      [[languages.en.params.skills.list.items]]
+      details = "Django/NodeJS"
 
-[params.awards]
-  enable = false
+      [[languages.en.params.skills.list]]
+      title = "Professional"
+      [[languages.en.params.skills.list.items]]
+      details = "Effective communication"
+      [[languages.en.params.skills.list.items]]
+      details = "Team player"
+      [[languages.en.params.skills.list.items]]
+      details = "Strong problem solver"
+      [[languages.en.params.skills.list.items]]
+      details = "Good time management"
 
-  [[params.awards.list]]
-  name = "Award Lorem Ipsum"
-  body = "Microsoft lorem ipsum"
-  date = "2019"
-  [[params.awards.list]]
-  name = "Award Donec Sodales"
-  body = "Oracle Aenean"
-  date = "2017"
+    [languages.en.params.education]
+      enable = true
 
-[params.languages]
-  enable = true
+      [[languages.en.params.education.list]]
+      degree = "B.Sc., Computer Science"
+      university = "Rafael Belloso University"
+      dates = "2013 - 2017"
+      [[languages.en.params.education.list]]
+      degree = "Website Administration"
+      university = "Rafael Belloso University"
+      dates = "2016"
 
-  [[params.languages.list]]
-  name = "Español"
-  level = "Nativo"
-  [[params.languages.list]]
-  name = "English"
-  level = "Profesional"
-  [[params.languages.list]]
-  name = "Francés"
-  level = "Básico"
+    [languages.en.params.interests]
+      enable = true
 
-[params.interests]
-  enable = true
+      [[languages.en.params.interests.list]]
+      name = "Technology"
+      [[languages.en.params.interests.list]]
+      name = "Cycling"
+      [[languages.en.params.interests.list]]
+      name = "Languages"
 
-  [[params.interests.list]]
-  name = "Tecnología"
-  [[params.interests.list]]
-  name = "Ciclismo"
-  [[params.interests.list]]
-  name = "Idiomas"
+    [languages.en.params.summary]
+      enable = true
+      text = "A graduate of Rafael Belloso University, I have skills that allow me to use time effectively, conduct research and solve problems with agility. I relate easily to technology and work with it comfortably, even under pressure."
 
-[params.summary]
-  enable = true
-  text = "Egresado de la Universidad Rafael Belloso Chacín, poseo habilidades que me permiten utilizar el tiempo de manera eficaz, realizar investigaciones y solucionar problemas con agilidad. Me relaciono fácilmente con la tecnología y me desenvuelvo en ella con comodidad, incluso bajo presión."
+    [languages.en.params.experience]
+      enable = true
 
-[params.experience]
-  enable = true
+      [[languages.en.params.experience.list]]
+      title = "Data Delivery Engineer"
+      dates = "Aug 2020 - Present"
+      company = "Admetricks"
+      companyUrl = "https://admetricks.com"
+      details = "Currently I'm in charge of any company product that displays information to clients, so I develop both front-end and back-end interfaces to deliver easy-to-digest information, with the following tools/techniques."
 
-  [[params.experience.list]]
-  title = "Ingeniero de Entrega de Datos"
-  dates = "Ago 2020 - Presente"
-  company = "Admetricks"
-  companyUrl = "https://admetricks.com"
-  details = "Estoy a cargo de aquellos productos de la compañía que entreguen datos a sus clientes, así que desarrollo interfaces tanto de front-end como de back-end para desplegar información fácil de entender, con las siguientes herramientas/técnicas:"
-
-  [[params.experience.list.items]]
-  details = "Javascript: VueJS, Angular, ES8"
-  [[params.experience.list.items]]
-  details = "Backend: Django, NodeJS"
-  [[params.experience.list.items]]
-  details = "Aplicaciones responsivas (HTML/CSS preprocesado)"
-  [[params.experience.list.items]]
-  details = "APIs REST (¡documentadas!)"
-  [[params.experience.list.items]]
-  details = "CI/CD con CircleCI, GitHub Actions"
-
-
-  [[params.experience.list]]
-  title = "Ingeniero de front-end"
-  dates = "Abr 2018 - Feb 2020"
-  company = "Nectia Software"
-  companyUrl = "http://www.nectia.com/software"
-  details = "Fui responsable de labores de maquetación de aplicaciones web y móviles, medición del comportamiento de usuarios a través de herramientas de analítica y feedback para su posterior estudio. También participé en A/B testing y desarrollo/implementación de prototipos."
-
-  [[params.experience.list]]
-  title = "Ingeniero de front-end"
-  dates = "Abr 2017 - Feb 2018"
-  company = "Sistemas Ventor"
-  companyUrl = "https://www.linkedin.com/company/sistemas-ventor"
-  details = "Fui responsable del desarrollo de front-end de múltiples aplicaciones cuyo fin es administrar la distribución masiva de productos, bajo ambiente web y móvil (Android)."
-  [[params.experience.list.items]]
-  details = "Optimicé el tamaño promedio de las aplicaciones en un 60% aplicando técnicas de compresión de archivos."
-  [[params.experience.list.items]]
-  details = "Simplifiqué el proceso de distribución de nuevas versiones implementando un sistema de actualizaciones OTA"
-  [[params.experience.list.items]]
-  details = "Automaticé diferentes tareas de desarrollo y despliegue, contribuyendo a un aumento de la productividad"
+      [[languages.en.params.experience.list.items]]
+      details = "Javascript: VueJS, Angular, ES8"
+      [[languages.en.params.experience.list.items]]
+      details = "Backend: Django, NodeJS"
+      [[languages.en.params.experience.list.items]]
+      details = "Responsive applications (HTML/CSS)"
+      [[languages.en.params.experience.list.items]]
+      details = "REST APIs (with documentation!)"
+      [[languages.en.params.experience.list.items]]
+      details = "CI/CD pipelines (CircleCI/GitHub actions)"
 
 
-  [[params.experience.list]]
-  title = "Desarrollador de software"
-  dates = "Ene 2017 - Abr 2017"
-  company = "Megagroup LA"
-  companyUrl = "https://megagroupla.com/"
-  details = "Fui responsable del desarrollo de aplicaciones de gestión documental y sitios web corporativos y gubernamentales, adaptables a sistemas de escritorio y móviles."
+      [[languages.en.params.experience.list]]
+      title = "Frontend Engineer"
+      dates = "Apr 2018 - Feb 2020"
+      company = "Nectia Software"
+      companyUrl = "http://www.nectia.com/software"
+      details = "I was responsible for web and mobile applications layout, user behavior measurement through analytic tools and feedback for later study. I also participated in A/B testing and development/implementation of prototypes."
 
-  [[params.experience.list]]
-  title = "Preparador docente/Tutor"
-  dates = "Ene 2016 - Dic 2017"
-  company = "Universidad Rafael Belloso"
-  companyUrl = "https://www.urbe.edu/"
-  details = "Soporte técnico en el área de la informática (software de oficina, programación y diseño gráfico) dirigido tanto a profesores como a estudiantes de la universidad."
+      [[languages.en.params.experience.list]]
+      title = "Frontend Engineer"
+      dates = "Abr 2017 - Feb 2018"
+      company = "Sistemas Ventor"
+      companyUrl = "https://www.linkedin.com/company/sistemas-ventor"
+      details = "I was responsible for the front-end development of multiple applications to manage the mass distribution of products, under web and mobile environment (Android)."
+        [[languages.en.params.experience.list.items]]
+        details = "I optimized the average application size by 60% by applying file compression techniques"
+        [[languages.en.params.experience.list.items]]
+        details = "I simplified the process of distributing new versions by implementing an OTA update system"
+        [[languages.en.params.experience.list.items]]
+        details = "I automated different development and deployment tasks, contributing to an increase in productivity"
 
-[params.projects]
-  enable = true
+      [[languages.en.params.experience.list]]
+      title = "Frontend Engineer"
+      dates = "Jan 2017 - Apr 2017"
+      company = "Megagroup LA"
+      companyUrl = "https://megagroupla.com/"
+      details = "I was responsible for the development of document management applications and corporate and government websites, adaptable to desktop and mobile systems."
 
-  [[params.projects.list]]
-  title = "Autoplaza"
-  meta = "Software Propietario"
-  tagline = "Autoplaza es una plataforma destinada a ayudar a sus usuarios a encontrar el vehículo más adecuado a sus necesidades."
+      [[languages.en.params.experience.list]]
+      title = "Tutor"
+      dates = "Jan 2016 - Dec 2017"
+      company = "Rafael Belloso University"
+      companyUrl = "https://www.urbe.edu/"
+      details = "Technical support for the Computer Science department (office software, programming and graphic design) aimed at both teachers and students of the university during class hours."
 
-  [[params.projects.list]]
-  title = "MacroMade"
-  meta = "Consulting"
-  tagline = "Trabajé junto al equipo de MacroMade como contratista freelance para perfeccionar múltiples sitios web de sus clientes, principalmente construidos en Wordpress y Shopify."
-    [[params.projects.list.items]]
-    title = "Advanced Fiberglass Concepts"
-    url = "https://test.com"
-    description = "piezas de fibra de vidrio para vehículos todo terreno"
-    [[params.projects.list.items]]
-    title = "6 Shore Road"
-    url = "https://test.com"
-    description = "ropa de baño versátil y de lujo"
-    [[params.projects.list.items]]
-    title = "Wallark"
-    url = "https://test.com"
-    description = "decoración elegante y artesanal finlandesa para techos y diseño de interiores"
-    [[params.projects.list.items]]
-    title = "HoneyCat Jewelry"
-    url = "https://test.com"
-    description = "joyería de alta calidad a precios convenientes"
-[params.information]
-  enable = true
+    [languages.en.params.projects]
+      enable = true
 
-  [[params.information.list]]
-  title = "Papers"
-  [[params.information.list.items]]
-  details = "2018 · Lorem Ipsum"
-  [[params.information.list.items]]
-  details = "2016 · Sed Fringilla"
+      [[languages.en.params.projects.list]]
+      title = "Autoplaza"
+      meta = "Proprietary Software"
+      tagline = "Autoplaza is a platform designed to help its users find the most suitable vehicle for their needs."
 
-[params.social]
-  enable = true
+      [[languages.en.params.projects.list]]
+      title = "MacroMade"
+      meta = "Consulting"
+      tagline = "I worked with the MacroMade team as a freelance contractor to perfect multiple client websites, mainly built in Wordpress and Shopify."
+        [[languages.en.params.projects.list.items]]
+        title = "Advanced Fiberglass Concepts"
+        url = "https://www.advfiberglass.com/"
+        description = "fiberglass parts for off-road vehicles"
+        [[languages.en.params.projects.list.items]]
+        title = "6 Shore Road"
+        url = "https://6shoreroad.com/"
+        description = "versatile and luxurious swimwear"
+        [[languages.en.params.projects.list.items]]
+        title = "Wallark"
+        url = "https://en.wallark.com/"
+        description = "elegant, handcrafted Finnish ceiling decoration and interior design"
+        [[languages.en.params.projects.list.items]]
+        title = "HoneyCat Jewelry"
+        url = "https://honeycat-jewelry.com/"
+        description = "high quality jewelry at convenient prices"
 
-  [[params.social.list]]
-  icon = "fab fa-gitlab"
-  url = "//gitlab.com/arlopezg"
-  title = "arlopezg"
-  [[params.social.list]]
-  icon = "fab fa-linkedin"
-  url = "//www.linkedin.com/in/arlopezg/"
-  title = "arlopezg"
-  [[params.social.list]]
-  icon = "fab fa-instagram"
-  url = "//www.instagram.com/arlopezg/"
-  title = "@arlopezg"
+  [languages.es]
+    weight = 1
+    [languages.es.params.skills]
+      enable = true
+
+      [[languages.es.params.skills.list]]
+      title = "Técnicas"
+      [[languages.es.params.skills.list.items]]
+      details = "Liderar, desarrollar y entregar sistemas complejos"
+      [[languages.es.params.skills.list.items]]
+      details = "Aplicaciones responsivas de alto rendimiento"
+      [[languages.es.params.skills.list.items]]
+      details = "JavaScript/Vue/React/Angular"
+      [[languages.es.params.skills.list.items]]
+      details = "Django/NodeJS"
+
+      [[languages.es.params.skills.list]]
+      title = "Profesionales"
+      [[languages.es.params.skills.list.items]]
+      details = "Comunicación efectiva"
+      [[languages.es.params.skills.list.items]]
+      details = "Jugador de equipo"
+      [[languages.es.params.skills.list.items]]
+      details = "Resolución de problemas"
+      [[languages.es.params.skills.list.items]]
+      details = "Autogestión"
+
+    [languages.es.params.education]
+      enable = true
+
+      [[languages.es.params.education.list]]
+      degree = "Ingeniería en Informática"
+      university = "Universidad Rafael Belloso"
+      dates = "2013 - 2017"
+      [[languages.es.params.education.list]]
+      degree = "Administración de sitios web"
+      university = "Universidad Rafael Belloso"
+      dates = "2016"
+
+
+    [languages.es.params.interests]
+      enable = true
+
+      [[languages.es.params.interests.list]]
+      name = "Tecnología"
+      [[languages.es.params.interests.list]]
+      name = "Ciclismo"
+      [[languages.es.params.interests.list]]
+      name = "Idiomas"
+
+    [languages.es.params.summary]
+      enable = true
+      text = "Egresado de la Universidad Rafael Belloso Chacín, poseo habilidades que me permiten utilizar el tiempo de manera eficaz, realizar investigaciones y solucionar problemas con agilidad. Me relaciono fácilmente con la tecnología y me desenvuelvo en ella con comodidad, incluso bajo presión."
+
+    [languages.es.params.experience]
+      enable = true
+
+      [[languages.es.params.experience.list]]
+      title = "Ingeniero de Entrega de Datos"
+      dates = "Ago 2020 - Presente"
+      company = "Admetricks"
+      companyUrl = "https://admetricks.com"
+      details = "Estoy a cargo de aquellos productos de la compañía que entreguen datos a sus clientes, así que desarrollo interfaces tanto de front-end como de back-end para desplegar información fácil de entender, con las siguientes herramientas/técnicas:"
+
+      [[languages.es.params.experience.list.items]]
+      details = "Javascript: VueJS, Angular, ES8"
+      [[languages.es.params.experience.list.items]]
+      details = "Backend: Django, NodeJS"
+      [[languages.es.params.experience.list.items]]
+      details = "Aplicaciones responsivas (HTML/CSS preprocesado)"
+      [[languages.es.params.experience.list.items]]
+      details = "APIs REST (¡documentadas!)"
+      [[languages.es.params.experience.list.items]]
+      details = "CI/CD con CircleCI, GitHub Actions"
+
+
+      [[languages.es.params.experience.list]]
+      title = "Ingeniero de Frontend"
+      dates = "Abr 2018 - Feb 2020"
+      company = "Nectia Software"
+      companyUrl = "http://www.nectia.com/software"
+      details = "Fui responsable de labores de maquetación de aplicaciones web y móviles, medición del comportamiento de usuarios a través de herramientas de analítica y feedback para su posterior estudio. También participé en A/B testing y desarrollo/implementación de prototipos."
+
+      [[languages.es.params.experience.list]]
+      title = "Ingeniero de Frontend"
+      dates = "Abr 2017 - Feb 2018"
+      company = "Sistemas Ventor"
+      companyUrl = "https://www.linkedin.com/company/sistemas-ventor"
+      details = "Fui responsable del desarrollo de front-end de múltiples aplicaciones cuyo fin es administrar la distribución masiva de productos, bajo ambiente web y móvil (Android)."
+      [[languages.es.params.experience.list.items]]
+      details = "Optimicé el tamaño promedio de las aplicaciones en un 60% aplicando técnicas de compresión de archivos."
+      [[languages.es.params.experience.list.items]]
+      details = "Simplifiqué el proceso de distribución de nuevas versiones implementando un sistema de actualizaciones OTA"
+      [[languages.es.params.experience.list.items]]
+      details = "Automaticé diferentes tareas de desarrollo y despliegue, contribuyendo a un aumento de la productividad"
+
+      [[languages.es.params.experience.list]]
+      title = "Ingeniero de Frontend"
+      dates = "Ene 2017 - Abr 2017"
+      company = "Megagroup LA"
+      companyUrl = "https://megagroupla.com/"
+      details = "Fui responsable del desarrollo de aplicaciones de gestión documental y sitios web corporativos y gubernamentales, adaptables a sistemas de escritorio y móviles."
+
+      [[languages.es.params.experience.list]]
+      title = "Preparador docente/Tutor"
+      dates = "Ene 2016 - Dic 2017"
+      company = "Universidad Rafael Belloso"
+      companyUrl = "https://www.urbe.edu/"
+      details = "Soporte técnico en el área de la informática (software de oficina, programación y diseño gráfico) dirigido tanto a profesores como a estudiantes de la universidad."
+
+    [languages.es.params.projects]
+      enable = true
+
+      [[languages.es.params.projects.list]]
+      title = "Autoplaza"
+      meta = "Software Propietario"
+      tagline = "Autoplaza es una plataforma que guía a sus usuarios a encontrar el vehículo más adecuado a sus necesidades."
+
+      [[languages.es.params.projects.list]]
+      title = "MacroMade"
+      meta = "Consulting"
+      tagline = "Trabajé junto al equipo de MacroMade como contratista freelance para perfeccionar múltiples sitios web de sus clientes, principalmente construidos en Wordpress y Shopify."
+      [[languages.es.params.projects.list.items]]
+      title = "Advanced Fiberglass Concepts"
+      url = "https://test.com"
+      description = "piezas de fibra de vidrio para vehículos todo terreno"
+      [[languages.es.params.projects.list.items]]
+      title = "6 Shore Road"
+      url = "https://test.com"
+      description = "ropa de baño versátil y de lujo"
+      [[languages.es.params.projects.list.items]]
+      title = "Wallark"
+      url = "https://test.com"
+      description = "decoración elegante y artesanal finlandesa para techos y diseño de interiores"
+      [[languages.es.params.projects.list.items]]
+      title = "HoneyCat Jewelry"
+      url = "https://test.com"
+      description = "joyería de alta calidad a precios convenientes"
