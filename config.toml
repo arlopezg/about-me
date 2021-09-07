@@ -2,13 +2,13 @@
 baseURL = "/"
 languageCode = "es"
 DefaultContentLanguage = "en"
-title = "Developer | Alejandro López"
+title = "Software Developer | Alejandro López"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-113183171-1"
 
 [params]
 author = "CowboySmall"
-description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+description = "Software Developer with a strong focus on front-end engineering."
 primaryColor = "#36859a"
 textPrimaryColor = "#555"
 
@@ -44,8 +44,8 @@ avatar = "profile.png"
   [params.social]
     enable = true
     [[params.social.list]]
-    icon = "fab fa-gitlab"
-    url = "//gitlab.com/arlopezg"
+    icon = "fab fa-github"
+    url = "//github.com/arlopezg"
     title = "arlopezg"
     [[params.social.list]]
     icon = "fab fa-linkedin"
@@ -115,11 +115,18 @@ avatar = "profile.png"
       enable = true
 
       [[languages.en.params.experience.list]]
+      title = "Frontend Developer"
+      dates = "Aug 2021 - Present"
+      company = "Joymo"
+      companyUrl = "https://joymo.tv"
+      details = ""
+
+      [[languages.en.params.experience.list]]
       title = "Data Delivery Engineer"
-      dates = "Aug 2020 - Present"
+      dates = "Aug 2020 - Aug 2021"
       company = "Admetricks"
       companyUrl = "https://admetricks.com"
-      details = "Currently I'm in charge of any company product that displays information to clients, so I develop both front-end and back-end interfaces to deliver easy-to-digest information, with the following tools/techniques."
+      details = "I was in charge of any company product displaying information to the end user, so I develop both front-end and back-end interfaces to deliver easy-to-digest information, with the following tools/techniques."
 
       [[languages.en.params.experience.list.items]]
       details = "Javascript: VueJS, Angular, ES8"
@@ -254,11 +261,18 @@ avatar = "profile.png"
       enable = true
 
       [[languages.es.params.experience.list]]
+      title = "Ingeniero de Frontend"
+      dates = "Ago 2021 - Presente"
+      company = "Joymo"
+      companyUrl = "https://joymo.tb"
+      details = ""
+
+      [[languages.es.params.experience.list]]
       title = "Ingeniero de Entrega de Datos"
       dates = "Ago 2020 - Presente"
       company = "Admetricks"
       companyUrl = "https://admetricks.com"
-      details = "Estoy a cargo de aquellos productos de la compañía que entreguen datos a sus clientes, así que desarrollo interfaces tanto de front-end como de back-end para desplegar información fácil de entender, con las siguientes herramientas/técnicas:"
+      details = "Estuve a cargo de aquellos productos de la compañía que entreguen datos a sus clientes, así que desarrollo interfaces tanto de front-end como de back-end para desplegar información fácil de entender, con las siguientes herramientas/técnicas:"
 
       [[languages.es.params.experience.list.items]]
       details = "Javascript: VueJS, Angular, ES8"
