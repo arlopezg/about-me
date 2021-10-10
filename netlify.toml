@@ -2,3 +2,9 @@
   HUGO_VERSION = "0.62.0"
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.62.0"
+
+[[redirects]]
+  from = "/"
+  to = "/es"
+  status = 301
+  force = true
