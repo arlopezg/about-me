@@ -1,18 +1,32 @@
+<title>{{ .Site.Title }}</title>
 
-    <title>{{ .Site.Title }}</title>
+<!-- Meta -->
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="{{ .Site.Params.description }}" />
+<meta name="author" content="{{ .Site.Params.author }}" />
 
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ .Site.Params.description }}">
-    <meta name="author" content="{{ .Site.Params.author }}">
+<link rel="shortcut icon" href="/images/avatar.png" />
 
-    <link rel="shortcut icon" href="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png">
+<!-- Google Fonts -->
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900"
+/>
+<!-- Theme SCSS -->
+<link
+  href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+  rel="stylesheet"
+/>
+{{ $style := resources.Get "scss/devresume.scss" | resources.ExecuteAsTemplate
+"scss/devresume.scss" . | toCSS (dict "targetPath" "assets/css/devresume.css") |
+minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" />
 
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
-    <!-- Theme SCSS -->
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    {{ $style := resources.Get "scss/devresume.scss" | resources.ExecuteAsTemplate "scss/devresume.scss" . | toCSS (dict "targetPath" "assets/css/devresume.css") | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+<meta property="og:title" content="Contador y Administrador | Alejandro López">
+<meta property="og:site_name" content="Contador y Administrador | Alejandro López">
+<meta property="og:url" content="https://alejandro-lopez.netlify.app/">
+<meta property="og:description" content="Profesional de la contaduría y administración de empresas con experiencia en PYMEs y un fuerte foco en el área administrativa y logística">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://alejandro-lopez.netlify.app/images/avatar.png">
