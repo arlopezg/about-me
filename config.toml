@@ -8,7 +8,7 @@ googleAnalytics = "UA-113183171-1"
 
 [params]
 author = "CowboySmall"
-description = "Software Developer with a strong focus on front-end engineering."
+description = "Software Engineer with a strong focus on front-end development."
 primaryColor = "#36859a"
 textPrimaryColor = "#555"
 
@@ -20,7 +20,7 @@ avatar = "profile.png"
 
   [params.contact]
     enable = true
-    location = "Santiago de Chile, Chile"
+    location = "Oslo, Norway"
     [[params.contact.list]]
     icon = "fas fa-envelope-square"
     url = "mailto:#"
