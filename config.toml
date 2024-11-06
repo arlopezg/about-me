@@ -62,9 +62,11 @@ avatar = "profile.png"
       [[languages.en.params.skills.list.items]]
       details = "Responsive and high-performance apps"
       [[languages.en.params.skills.list.items]]
-      details = "JavaScript/Vue/React/Angular"
+      details = "JavaScript/TypeScript"
       [[languages.en.params.skills.list.items]]
-      details = "Django/NodeJS"
+      details = "Angular/React/Vue"
+      [[languages.en.params.skills.list.items]]
+      details = "NodeJS/Python"
 
       [[languages.en.params.skills.list]]
       title = "Professional"
@@ -196,9 +198,12 @@ avatar = "profile.png"
       [[languages.es.params.skills.list.items]]
       details = "Aplicaciones responsivas de alto rendimiento"
       [[languages.es.params.skills.list.items]]
-      details = "JavaScript/Vue/React/Angular"
+      details = "JavaScript/TypeScript"
       [[languages.es.params.skills.list.items]]
-      details = "Django/NodeJS"
+      details = "Angular/React/Vue"
+      [[languages.es.params.skills.list.items]]
+      details = "NodeJS/Python"
+
 
       [[languages.es.params.skills.list]]
       title = "Profesionales"
@@ -265,7 +270,7 @@ avatar = "profile.png"
       details = "Estuve a cargo de aquellos productos de la compañía que entreguen datos a sus clientes, así que desarrollo interfaces tanto de front-end como de back-end para desplegar información fácil de entender, con las siguientes herramientas/técnicas:"
 
       [[languages.es.params.experience.list.items]]
-      details = "Javascript: VueJS, Angular, ES8"
+      details = "Javascript: VueJS, Angular"
       [[languages.es.params.experience.list.items]]
       details = "Backend: Django, NodeJS"
       [[languages.es.params.experience.list.items]]
