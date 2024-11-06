@@ -1,4 +1,4 @@
-# My Hugo Site
+# About me
 
 Portfolio website built with [Hugo](https://gohugo.io/).
 
