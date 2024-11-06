@@ -22,10 +22,6 @@ avatar = "profile.png"
     enable = true
     location = "Oslo, Norway"
     [[params.contact.list]]
-    icon = "fas fa-envelope-square"
-    url = "mailto:#"
-    text = "alejandrolopez.gd@gmail.com"
-    [[params.contact.list]]
     icon = "fas fa-globe"
     url = "https://alejandro-lopez.dev"
     text = "alejandro-lopez.dev"
@@ -111,9 +107,16 @@ avatar = "profile.png"
       enable = true
 
       [[languages.en.params.experience.list]]
+      title = "Senior Software Developer"
+      dates = "Sep 2024 - Present"
+      company = "Zeekit AS"
+      companyUrl = "https://zeekit.no"
+      details = ""
+
+      [[languages.en.params.experience.list]]
       title = "Frontend Developer"
       dates = "Sep 2021 - Sep 2024"
-      company = "Joymo"
+      company = "Joymo AS"
       companyUrl = "https://joymo.tv"
       details = ""
 
@@ -256,10 +259,18 @@ avatar = "profile.png"
     [languages.es.params.experience]
       enable = true
 
+      [[languages.en.params.experience.list]]
+      title = "Desarrollador de Software Sénior"
+      dates = "Sep 2024 - Presente"
+      company = "Zeekit AS"
+      companyUrl = "https://zeekit.no"
+      details = ""
+
+
       [[languages.es.params.experience.list]]
       title = "Ingeniero de Frontend"
       dates = "Sep 2021 - Sep 2024"
-      company = "Joymo"
+      company = "Joymo AS"
       companyUrl = "https://joymo.tb"
       details = ""
 
