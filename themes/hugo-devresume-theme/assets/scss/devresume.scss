@@ -128,6 +128,11 @@ a.theme-link {
 }
 
 a.resume-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+
 	color: $theme-text-color-secondary;
 	&:hover {
 		color: $theme-color-primary;
@@ -203,10 +208,3 @@ a.resume-link {
 	    border-left: 0;
     }
 }
-
-
-
-
-
-
-

@@ -33,10 +33,10 @@ avatar = "profile.png"
     level = "Nativo"
     [[params.languages.list]]
     name = "English"
-    level = "Fluent"
+    level = "Proficient (C2)"
     [[params.languages.list]]
     name = "Norwegian"
-    level = "Mellomnivå"
+    level = "Øvre mellomliggende (B2)"
   [params.social]
     enable = true
     [[params.social.list]]
@@ -93,9 +93,11 @@ avatar = "profile.png"
       enable = true
 
       [[languages.en.params.interests.list]]
-      name = "Technology"
-      [[languages.en.params.interests.list]]
       name = "Cycling"
+      [[languages.en.params.interests.list]]
+      name = "Skiing"
+      [[languages.en.params.interests.list]]
+      name = "Camping"
       [[languages.en.params.interests.list]]
       name = "Languages"
 
@@ -174,33 +176,13 @@ avatar = "profile.png"
       details = "Technical support for the Computer Science department (office software, programming and graphic design) aimed at both teachers and students of the university during class hours."
 
     [languages.en.params.projects]
-      enable = true
+      enable = false
 
       [[languages.en.params.projects.list]]
-      title = "Autoplaza"
-      meta = "Proprietary Software"
-      tagline = "Autoplaza is a platform designed to help its users find the most suitable vehicle for their needs."
-
-      [[languages.en.params.projects.list]]
-      title = "MacroMade"
-      meta = "Consulting"
-      tagline = "I worked with the MacroMade team as a freelance contractor to perfect multiple client websites, mainly built in Wordpress and Shopify."
-        [[languages.en.params.projects.list.items]]
-        title = "Advanced Fiberglass Concepts"
-        url = "https://www.advfiberglass.com/"
-        description = "fiberglass parts for off-road vehicles"
-        [[languages.en.params.projects.list.items]]
-        title = "6 Shore Road"
-        url = "https://6shoreroad.com/"
-        description = "versatile and luxurious swimwear"
-        [[languages.en.params.projects.list.items]]
-        title = "Wallark"
-        url = "https://en.wallark.com/"
-        description = "elegant, handcrafted Finnish ceiling decoration and interior design"
-        [[languages.en.params.projects.list.items]]
-        title = "HoneyCat Jewelry"
-        url = "https://honeycat-jewelry.com/"
-        description = "high quality jewelry at convenient prices"
+      title = "TITLE"
+      meta = "META"
+      tagline = "DESCRIPTION"
+      url = "URL"
 
   [languages.es]
     weight = 1
@@ -246,9 +228,11 @@ avatar = "profile.png"
       enable = true
 
       [[languages.es.params.interests.list]]
-      name = "Tecnología"
-      [[languages.es.params.interests.list]]
       name = "Ciclismo"
+      [[languages.es.params.interests.list]]
+      name = "Esquí"
+      [[languages.es.params.interests.list]]
+      name = "Campismo"
       [[languages.es.params.interests.list]]
       name = "Idiomas"
 
@@ -259,19 +243,18 @@ avatar = "profile.png"
     [languages.es.params.experience]
       enable = true
 
-      [[languages.en.params.experience.list]]
+      [[languages.es.params.experience.list]]
       title = "Desarrollador de Software Sénior"
       dates = "Sep 2024 - Presente"
       company = "Zeekit AS"
       companyUrl = "https://zeekit.no"
       details = ""
 
-
       [[languages.es.params.experience.list]]
       title = "Ingeniero de Frontend"
       dates = "Sep 2021 - Sep 2024"
       company = "Joymo AS"
-      companyUrl = "https://joymo.tb"
+      companyUrl = "https://joymo.tv"
       details = ""
 
       [[languages.es.params.experience.list]]
@@ -328,30 +311,10 @@ avatar = "profile.png"
       details = "Soporte técnico en el área de la informática (software de oficina, programación y diseño gráfico) dirigido tanto a profesores como a estudiantes de la universidad."
 
     [languages.es.params.projects]
-      enable = true
+      enable = false
 
       [[languages.es.params.projects.list]]
-      title = "Autoplaza"
-      meta = "Software Propietario"
-      tagline = "Autoplaza es una plataforma que guía a sus usuarios a encontrar el vehículo más adecuado a sus necesidades."
-
-      [[languages.es.params.projects.list]]
-      title = "MacroMade"
-      meta = "Consulting"
-      tagline = "Trabajé junto al equipo de MacroMade como contratista freelance para perfeccionar múltiples sitios web de sus clientes, principalmente construidos en Wordpress y Shopify."
-      [[languages.es.params.projects.list.items]]
-      title = "Advanced Fiberglass Concepts"
-      url = "https://test.com"
-      description = "piezas de fibra de vidrio para vehículos todo terreno"
-      [[languages.es.params.projects.list.items]]
-      title = "6 Shore Road"
-      url = "https://test.com"
-      description = "ropa de baño versátil y de lujo"
-      [[languages.es.params.projects.list.items]]
-      title = "Wallark"
-      url = "https://test.com"
-      description = "decoración elegante y artesanal finlandesa para techos y diseño de interiores"
-      [[languages.es.params.projects.list.items]]
-      title = "HoneyCat Jewelry"
-      url = "https://test.com"
-      description = "joyería de alta calidad a precios convenientes"
+      title = ""
+      meta = ""
+      tagline = ""
+      url = ""
